@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+
+    <title>Tech Corporation</title>
+</head>
+<body>
+<header class="header">
+    <nav class="navbar">
+        <div class="logo">
+            <svg width="55" height="55" xmlns="http://www.w3.org/2000/svg ">
+                <!-- <rect width="100%" height="100%" fill="#f0f0f0" /> -->
+                <text x="10" y="40" font-family="Arial" font-size="35" fill="#007ACC">Tc</text>
+            </svg>
+        </div>
+        <div class="nav-options">
+            <ul>
+                <li><a href="#main">Home</a></li>
+                <li><a href="#company-details">Company Details</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<section class="home" id="main">
+    <div class="home-content">
+        <div class="text-1">Welcome to</div>
+        <div class="text-2">Tech Corporation</div>
+        <div class="text-3">Innovating the Future</div>
+    </div>
+</section>
+
+<section class="about" id="company-details">
+    <h2 class="title">About Us</h2>
+    <div class="about-content">
+        <div class="left">
+            <img src="./public/Screenshot 2024-08-11 122052.png" alt="Company Image">
+        </div>
+        <div class="right">
+            <div class="text">We are Tech Corporation, a leading innovator in technology.</div>
+            <p>Our mission is to deliver top-notch solutions to our clients by leveraging the latest advancements in technology.</p>
+            <table class="company-details">
+                <tr>
+                    <th>Established</th>
+                    <td>2022</td>
+                </tr>
+                <tr>
+                    <th>Employees</th>
+                    <td>500+</td>
+                </tr>
+                <tr>
+                    <th>Headquarters</th>
+                    <td>Chembur, Mumbai</td>
+                </tr>
+                <tr>
+                    <th>Specialization</th>
+                    <td>AI, Cloud Solutions, Web Development</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</section>
+
+<section class="skills" id="services">
+    <h2 class="title">Our Services</h2>
+    <div class="skill-content">
+        <div class="box1 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('./public/webservice.png');"></div>
+                <h2>Web Development</h2>
+            </div>
+        </div>
+        <div class="box2 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('./public/appservice.png');"></div>
+                <h2>App Development</h2>
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('./public/cloud.png');"></div>
+                <h2>Cloud Solutions</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="projects" id="media">
+    <h2 class="title">Media</h2>
+    <div class="project-content">
+        <div class="pbox">
+            <div class="box-content">
+                <h2>Product Launch</h2>
+                <div class="pro-img" style="background-image: url('./public/productlaunch.jpeg');"></div>
+                <p>Check out our latest product launch event.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+        <div class="pbox">
+            <div class="box-content">
+                <h2>Tech Conference</h2>
+                <div class="pro-img" style="background-image: url('./public/conference.jpeg');"></div>
+                <p>We recently participated in the global tech conference.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+        <div class="pbox">
+            <div class="box-content">
+                <h2>Innovation Award</h2>
+                <div class="pro-img" style="background-image: url('./public/award.jpeg');"></div>
+                <p>We are proud to have received the Innovation Award.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="video-section">
+    <h2 class="title">Our Latest Video</h2>
+    <div class="video-container">
+        <iframe
+                width="1000"
+                height="500"
+                src="https://www.youtube.com/embed/E0pkd_klF60?si=kozTSBIUM2K7jwTS"
+                title="YouTube video player"
+                allowfullscreen
+            ></iframe>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <h2 class="title">Contact Us</h2>
+    <div class="contact-content">
+        <div class="form-container">
+            <form action="#" method="POST">
+                <div class="input-box">
+                    <input type="text" name="name" required="required">
+                    <span>Full Name</span>
+                </div>
+                <div class="input-box">
+                    <input type="email" name="email" required="required">
+                    <span>Email</span>
+                </div>
+                <div class="input-box">
+                    <textarea name="message" required="required"></textarea>
+                    <span>Type your Message...</span>
+                </div>
+                <div class="input-box">
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </div>
+        <p class="mail">
+            Or get in touch with us at <br> contact@techcorporation.com
+        </p>
+        <div class="links">
+            <p>Follow us:</p>
+            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+            <a href="#"><i class="fa fa-github-square" aria-hidden="true"></i> Github</a>
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-content">
+        <p>&copy; 2024 Tech Corporation. All Rights Reserved.</p>
+        <p><a href="#main">Back to Top</a></p>
+    </div>
+</footer>
+
+</body>
+</html>
